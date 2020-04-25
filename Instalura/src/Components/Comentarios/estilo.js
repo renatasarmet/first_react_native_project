@@ -6,7 +6,9 @@ import {
 const estilo = StyleSheet.create({
     naMesmaLinha: {
         flexDirection: "row",
-        alignItems: "center"
+        alignItems: "center",
+        marginLeft: 5,
+        marginRight: 5
     },
     imgSend: {
         width: 30,

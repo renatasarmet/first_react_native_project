@@ -25,7 +25,7 @@ const Foto = ({ urlFoto, descricao, qntLikes }) => {
                 source={{ uri: urlFoto }}
                 style={estilo.imagem}
             />
-            <Text>{descricao}</Text>
+            <Text style={estilo.descricao}>{descricao}</Text>
             <View style={estilo.viewLike}>
                 <TouchableOpacity onPress={clicouCurtir}>
                     <Image source={imgLike(curtiu)}

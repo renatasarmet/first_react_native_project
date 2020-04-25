@@ -19,6 +19,10 @@ const estilo = StyleSheet.create({
     viewLike: {
         flexDirection: "row",
         alignItems: "center"
+    },
+    descricao: {
+        marginLeft: 5,
+        marginRight: 5
     }
 })
 
